@@ -1,5 +1,5 @@
 ## **🌐 Live Demo**
-**Visit the live application**: [Evotrix dApp](https://evotrix.sohampawar.me)
+**Visit the live application**: [Evotrix dApp - https://evotrix.sohampawar.me](https://evotrix.sohampawar.me)
 
 # **🗳️ Evotrix - Blockchain Voting System**
 
@@ -90,19 +90,6 @@ Replace `NEXT_PUBLIC_CONTRACT_ADDRESS` in your `.env.local` file
 - **Immutable Records**: All votes permanently recorded on blockchain
 - **Emergency Protocols**: Immediate voting suspension capabilities
 
-
-## **🔄 Workflow**
-
-
-graph TD
-A[Authority Verification] --> B[Open Voting]
-B --> C[Voter Registration]
-C --> D[Cast Vote]
-D --> E[Vote Counting]
-E --> F[Close Voting]
-F --> G[Declare Winner]
-
-
 ## **🤝 Contributing**
 
 1. **Fork** the repository
@@ -153,10 +140,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 - [ ] **IPFS Integration**: Decentralized storage for voting data
 - [ ] **Layer 2 Support**: Polygon/Arbitrum integration for lower fees
 
-## **📄 License**
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
 ## **🙏 Acknowledgments**
 
 - **Ethereum Foundation** for blockchain infrastructure
@@ -171,7 +154,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Project Link**: [https://github.com/yourusername/evotrix](https://github.com/yourusername/evotrix)
 
-**Email**: your.email@example.com
+**Email**: sohampawar1866@gmail.com
 
 ---
 
