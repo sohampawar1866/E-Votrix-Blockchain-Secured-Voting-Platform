@@ -135,9 +135,7 @@ Vercel for deployment platform
 
 📞 Contact
 Soham Pawar - sohampawar.me
-
-Project Link: https://github.com/yourusername/evotrix
-
+=
 🗳️ Empowering Democracy Through Blockchain Technology 🚀
 
 Built with ❤️ for transparent and secure elections
