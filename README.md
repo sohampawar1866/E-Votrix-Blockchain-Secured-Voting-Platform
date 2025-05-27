@@ -96,21 +96,6 @@ Cast your vote for Party 1 or Party 2
 
 View live election results
 
-🏗️ Project Structure
-text
-evotrix/
-├── contracts/
-│   └── evotrix.sol          # Main voting smart contract
-├── components/
-│   └── VotingDApp.tsx       # Main dApp interface
-├── hooks/
-│   ├── useWeb3.ts           # Web3 connection logic
-│   ├── useContract.ts       # Contract interaction
-│   └── useGreeting.ts       # Voting functions
-├── context/
-│   └── Web3Context.tsx      # Web3 state management
-└── types/
-    └── ethereum.d.ts        # TypeScript definitions
 🔐 Security Features
 Access Control: Role-based permissions for authorities and voters
 
