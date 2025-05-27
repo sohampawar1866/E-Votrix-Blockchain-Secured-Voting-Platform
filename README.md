@@ -1,3 +1,6 @@
+## **🌐 Live Demo**
+**Visit the live application**: [Evotrix dApp](https://evotrix.sohampawar.me)
+
 # **🗳️ Evotrix - Blockchain Voting System**
 
 **Evotrix** is a secure and transparent blockchain-based voting platform built on Ethereum's Sepolia testnet. It leverages smart contracts to enable trustworthy elections with multi-authority verification, Aadhar-based voter authentication, and real-time vote counting.
@@ -78,40 +81,6 @@ Replace `NEXT_PUBLIC_CONTRACT_ADDRESS` in your `.env.local` file
 4. **Cast** your vote for Party 1 or Party 2
 5. **View** live election results
 
-## **🏗️ Project Structure**
-
-evotrix/
-├── app/
-│ ├── layout.tsx # Root layout with providers
-│ ├── page.tsx # Main page component
-│ ├── globals.css # Global styles
-│ └── providers.tsx # Chakra UI providers
-├── components/
-│ ├── ui/ # Shadcn UI components
-│ │ ├── button.tsx
-│ │ ├── card.tsx
-│ │ ├── input.tsx
-│ │ └── alert.tsx
-│ └── VotingDApp.tsx # Main dApp interface
-├── hooks/
-│ ├── useWeb3.ts # Web3 connection logic
-│ ├── useContract.ts # Contract interaction
-│ └── useGreeting.ts # Voting functions
-├── context/
-│ └── Web3Context.tsx # Web3 state management
-├── contracts/
-│ └── evotrix.sol # Main voting smart contract
-├── scripts/
-│ └── deploy.js # Deployment script
-├── types/
-│ └── ethereum.d.ts # TypeScript definitions
-├── .env.local # Environment variables
-├── package.json # Dependencies
-├── hardhat.config.js # Hardhat configuration
-├── tailwind.config.js # Tailwind CSS config
-├── tsconfig.json # TypeScript config
-└── README.md # Project documentation
-
 
 ## **🔐 Security Features**
 
@@ -121,20 +90,6 @@ evotrix/
 - **Immutable Records**: All votes permanently recorded on blockchain
 - **Emergency Protocols**: Immediate voting suspension capabilities
 
-## **🌐 Live Demo**
-
-**Visit the live application**: [Evotrix dApp](https://your-vercel-deployment.vercel.app)
-
-## **📸 Screenshots**
-
-### **Main Dashboard**
-![Dashboard](./screenshots/dashboard.png)
-
-### **Voting Interface**
-![Voting](./screenshots/voting.png)
-
-### **Results Page**
-![Results](./screenshots/results.png)
 
 ## **🔄 Workflow**
 
