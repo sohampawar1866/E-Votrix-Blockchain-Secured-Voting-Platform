@@ -152,8 +152,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 **Soham Pawar** - [sohampawar.me](https://sohampawar.me)
 
-**Project Link**: [https://github.com/yourusername/evotrix](https://github.com/yourusername/evotrix)
-
 **Email**: sohampawar1866@gmail.com
 
 ---
