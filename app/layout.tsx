@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'E-Votrix',
+  title: 'E-Votrix: Secure Blockchain Voting on Ethereum Sepolia',
   description: 'Created By Soham Pawar',
 }
 
