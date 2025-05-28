@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'E-Votrix: Secure Blockchain Voting on Ethereum Sepolia',
+    icons: {
+    icon: '/logo.png',
+  },
   description: 'Created By Soham Pawar',
 }
 
