@@ -55,7 +55,7 @@ const VOTING_CONTRACT_ABI = [
 ]
 
 // Replace with your deployed voting contract address
-const VOTING_CONTRACT_ADDRESS = "0x2Aa7554A04fBcc129294e331d4dB0Af8b4d37eEB"
+const VOTING_CONTRACT_ADDRESS = "0x0093d08411ea4A980D01a2e390138D8DAF776c8F"
 
 declare global {
   interface Window {
