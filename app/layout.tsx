@@ -2,11 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'E-Votrix: Secure Blockchain Voting on Ethereum Sepolia',
-    icons: {
-    icon: '/logo.png',
-  },
-  description: 'Created By Soham Pawar',
+  title: 'v0 App',
+  description: 'Created with v0',
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
