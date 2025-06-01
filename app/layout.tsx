@@ -1,12 +1,14 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'E-Votrix: Secure Blockchain Voting on Ethereum Sepolia',
-    icons: {
-    icon: '/logo.png',
-  },
-  description: 'Created By Soham Pawar',
+  title: "Real-time Voting dApp",
+  description: "A decentralized voting application on Sepolia testnet",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -16,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
